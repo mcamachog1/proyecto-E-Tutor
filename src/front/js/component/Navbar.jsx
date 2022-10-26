@@ -15,6 +15,7 @@ export const NavbarP= () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Profile">Profile</Nav.Link>
+            <Nav.Link href="/Registration">Registration</Nav.Link>
             <Nav.Link href="/SearchClass">SearchClass</Nav.Link>
             <Nav.Link href="/ScheduleClass">ScheduleClass</Nav.Link>
           </Nav>

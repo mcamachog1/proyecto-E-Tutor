@@ -1,0 +1,25 @@
+.leftForm{
+    width: 500px;
+}
+
+.boton{
+    margin-left: 10px;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.fondo {
+    background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Math-Background-for-PPT.jpg);
+    opacity: 0.7;
+    /* height: 830px; */
+    /* background-size: 1300px 630px; */
+  }
+
+
+.textLabel{
+    font-weight: bold;
+    color: black;
+    background: white;
+}

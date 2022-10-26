@@ -12,6 +12,7 @@ import { NavbarP } from "./component/Navbar";
 import { Footer } from "./component/footer";
 import { Profile } from "./pages/profile";
 import { Register } from "./pages/register";
+import { Registration } from "./pages/registration";
 import { Login } from "./pages/login";
 import { CreateClass } from "./pages/createClass";
 import { SearchClass } from "./pages/searchClass";
@@ -32,6 +33,7 @@ function Layout() {
             <Route element={<Demo />} path="/demo" />
             <Route element={<ScheduleClass />} path="/scheduleClass" />
             <Route element={<Register />} path="/register" />
+            <Route element={<Registration />} path="/registration" />
             <Route element={<Login />} path="/login" />
             <Route element={<CreateClass />} path="/createClass" />
             <Route element={<SearchClass />} path="/searchClass" />
