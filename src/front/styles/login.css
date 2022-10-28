@@ -8,7 +8,6 @@
   background-color: white;
 } */
 
-
 .backgroundLogin{
   background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Math-Background-for-PPT.jpg);
   opacity: 0.8;
@@ -23,21 +22,17 @@
 }
 
 .logButton{
-
   margin-top: 25px;
   height: 40px;
   width: 120px;
   border-radius: 30px;
   font-size: 15px;
-  background-color: white;
-  border-color: #198754;
-  color: #198754;
 }
 
-.logButton:hover {
+/* .btn-register:hover {
   background-color: #198754;
   color: white;
-}
+} */
 
 /* .background {
   background-image: url(https://slidechef.net/wp-content/uploads/2021/10/Math-Background-for-PPT.jpg);

@@ -12,7 +12,6 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { faPencil } from "@fortawesome/free-solid-svg-icons";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
 import "../../styles/profile.css";
 import { Context } from "../store/appContext";
 
@@ -59,7 +58,7 @@ export function Profile() {
               {/***************************MODAL************************************************ */}
               <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                  <Modal.Title>Update your profile</Modal.Title>
+                  <Modal.Title>Modal heading</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                   <Form>
@@ -67,39 +66,10 @@ export function Profile() {
                       className="mb-3"
                       controlId="exampleForm.ControlInput1"
                     >
-                      <Form.Label>First Name</Form.Label>
-                      <Form.Control type="text" placeholder="4Geek" autoFocus />
-                    </Form.Group>
-                    <Form.Group
-                      className="mb-3"
-                      controlId="exampleForm.ControlInput1"
-                    >
-                      <Form.Label>Last Name</Form.Label>
+                      <Form.Label>Name</Form.Label>
                       <Form.Control
                         type="text"
-                        placeholder="Venezuela"
-                        autoFocus
-                      />
-                    </Form.Group>
-                    <Form.Group
-                      className="mb-3"
-                      controlId="exampleForm.ControlInput1"
-                    >
-                      <Form.Label>Direction</Form.Label>
-                      <Form.Control
-                        type="text"
-                        placeholder="Venezuela"
-                        autoFocus
-                      />
-                    </Form.Group>
-                    <Form.Group
-                      className="mb-3"
-                      controlId="exampleForm.ControlInput1"
-                    >
-                      <Form.Label>Email</Form.Label>
-                      <Form.Control
-                        type="text"
-                        placeholder="4geek@gmail.com"
+                        placeholder="4Geek Venezuela"
                         autoFocus
                       />
                     </Form.Group>
@@ -131,18 +101,10 @@ export function Profile() {
                   </Form>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button
-                    variant="secondary"
-                    className="Button2"
-                    onClick={handleClose}
-                  >
+                  <Button variant="secondary" onClick={handleClose}>
                     Close
                   </Button>
-                  <Button
-                    variant="primary"
-                    className="saveBtn"
-                    onClick={handleClose}
-                  >
+                  <Button variant="primary" onClick={handleClose}>
                     Save Changes
                   </Button>
                 </Modal.Footer>
@@ -177,12 +139,9 @@ export function Profile() {
             <Col sm={4} className="bio">
               <h4>Details</h4>
               <p>
-                <FontAwesomeIcon icon={faStar} /> 5 Instructor Rating
+                <FontAwesomeIcon icon={faStar} />5 Instructor Rating
               </p>
               <p>
-                <p>
-                  <FontAwesomeIcon icon={faUser} /> 200 Followers
-                </p>
                 <FontAwesomeIcon icon={faAward} /> 500 Reviews
               </p>
               <p>
@@ -276,7 +235,7 @@ export function Profile() {
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
-                        className="d-block w-50"
+                        className="d-block w-100"
                         src="https://picsum.photos/50"
                         alt="Second slide"
                       />
@@ -291,7 +250,7 @@ export function Profile() {
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
-                        className="d-block w-50"
+                        className="d-block w-100"
                         src="https://picsum.photos/50"
                         alt="Third slide"
                       />
